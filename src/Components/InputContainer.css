@@ -1,0 +1,10 @@
+
+.input{
+    font-size: 1rem;
+    border: .1rem solid #14c29f;
+}
+.error{
+    color: red;
+    text-align: left;
+    margin-left: 1rem;
+}

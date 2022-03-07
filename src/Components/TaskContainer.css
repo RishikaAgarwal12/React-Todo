@@ -1,0 +1,18 @@
+.task_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: #ecf0f1;
+  margin: 0.5%;
+  border-left: 6px solid teal ;
+}
+.not_done,
+.done_task {
+  flex-grow: 2;
+  color: #1abc9c;
+  text-decoration: solid;
+}
+.done_task {
+  text-decoration: line-through;
+  color: #787878;
+}
